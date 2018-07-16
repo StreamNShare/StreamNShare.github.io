@@ -1,0 +1,7 @@
+.row {
+    display: unset;
+}
+
+.col-md-8 {
+    max-width: 100%;
+}
