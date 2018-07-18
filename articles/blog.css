@@ -1,6 +1,6 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
-html, body {
+html {
   /* body will set it's height based on its parent, which is html */
   height: 100%;
   /* set full width as well */
@@ -8,7 +8,19 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+body {
+  /* body will set it's height based on its parent, which is html */
+  height: 100%;
+  /* set full width as well */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
@@ -16,6 +28,7 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
