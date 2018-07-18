@@ -15,10 +15,10 @@ html {
 }
 
 section {
-  width: 100%;
-  display: table;
-  margin: 0;
-  padding: 0;
+  width: 100% !important;
+  display: table !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .blog-header {
