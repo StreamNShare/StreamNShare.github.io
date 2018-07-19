@@ -5,3 +5,7 @@
 .col-md-8 {
     max-width: 100%;
 }
+
+.alert-dismissible {
+    padding-right: 1em;
+}
