@@ -10,3 +10,8 @@
     padding-right: 1em;
     font-size: 15px;
 }
+
+img{
+  max-width:90%;
+  height:auto;
+}

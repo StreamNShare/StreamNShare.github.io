@@ -1,7 +1,9 @@
-.row {
-    display: unset;
+.alert-dismissible {
+    padding-right: 1em;
+    font-size: 15px;
 }
 
-.col-md-8 {
-    max-width: 100%;
+img{
+  max-width:90%;
+  height:auto;
 }
