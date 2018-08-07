@@ -15,6 +15,8 @@ img{
   max-width:90%;
   height:auto;
 }
+
+iframe{max-width: 90%;}
 /*
 .blog-post-title, .blog-post-meta, p {
 	text-align: center;
