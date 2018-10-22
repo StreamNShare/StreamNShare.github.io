@@ -58,16 +58,8 @@ a:hover {
   background-color: #8164b8 !important;
 }
 
-@media (min-width:1200px) {
-  .col-xl-12 {
-    -ms-flex: unset !important;
-    flex: unset !important;
-    max-width: unset !important;
-  }
-}
-
 @media (min-width:992px) {
-  .col-lg-3 {
+  #GloryGiraffe {
     -ms-flex: unset !important;
     flex: unset !important;
     max-width: unset !important;
@@ -75,7 +67,15 @@ a:hover {
 }
 
 @media (min-width:768px) {
-  .col-md-6 {
+  #GloryGiraffe {
+    -ms-flex: unset !important;
+    flex: unset !important;
+    max-width: unset !important;
+  }
+}
+
+@media (min-width:1200px) {
+  #GloryGiraffe {
     -ms-flex: unset !important;
     flex: unset !important;
     max-width: unset !important;
