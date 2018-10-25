@@ -58,27 +58,3 @@ a:hover {
   background-color: #8164b8 !important;
 }
 
-@media (min-width:992px) {
-  #GloryGiraffe {
-    /*-ms-flex: unset !important;*/
-    /*flex: unset !important;*/
-    /*max-width: unset !important;*/
-  }
-}
-
-@media (min-width:768px) {
-  #GloryGiraffe {
-    /*-ms-flex: unset !important;*/
-    /*flex: unset !important;*/
-    /*max-width: unset !important;*/
-  }
-}
-
-@media (min-width:1200px) {
-  #GloryGiraffe {
-    /*-ms-flex: unset !important;*/
-    /*flex: unset !important;*/
-    /*max-width: unset !important;*/
-  }
-}
-
