@@ -38,6 +38,49 @@ img{
 
 iframe{max-width: 90%;}
 
+li {
+
+    display: block;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+
+li {
+
+    line-height: 18px;
+
+}
+
+.wpex-post-share {
+
+    font-size: 0.929em;
+
+}
+
+.wpex-post-share {
+
+    margin: 10px 0 10px;
+    font-size: 0.929em;
+
+}
+
+.wpex-post-share a {
+
+    display: block;
+    padding: 0.429em 0.857em;
+    color: #fff;
+    background: #000;
+
+}
+
+.wpex-post-share a {
+
+    color: #fff;
+
+}
+
 article,
 aside,
 dialog,
