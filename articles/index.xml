@@ -6,10 +6,23 @@
     <description>Recent content on Stream &#39;n Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 07 Nov 2018 20:30:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Nov 2018 21:23:06 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OBS Voicemeeter Audio Setup</title>
+      <link>/post/obs-voicemeeter-audio-setup/</link>
+      <pubDate>Thu, 15 Nov 2018 21:23:06 +0000</pubDate>
+      
+      <guid>/post/obs-voicemeeter-audio-setup/</guid>
+      <description>This section will cover setting up Voicemeeter Banana Pro with OBS using both Voicemeeter Banana Pro and Virtual Audio Cables. Please note that in order to continue with this tutorial, you will need additional software (linked below) which does require a donation to the creator of said software.
+Requirements:
+Voicemeeter Banana Pro (Website)
+Virtual Audio Cables (required donation for complete setup, one free cable download)
+Once you gone ahead and donated, you should recieve an email with a link for the two additional cables.</description>
+    </item>
     
     <item>
       <title>YouTuber Shirrako Suspended Over Red Dead Redemption Video (updated)</title>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-gb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>OBS Voicemeeter Audio Setup</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<meta name="generator" content="Hugo 0.49" />
+	
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="shortcut icon" href="../../favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo" role="banner">
+			<a class="logo__link" href="../../" title="Stream &#39;n Share" rel="home">
+				<div class="logo__title">Stream &#39;n Share</div>
+				
+			</a>
+		</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<section class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">OBS Voicemeeter Audio Setup</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+	<time class="meta__text" datetime="2018-11-15T21:23:06">November 15, 2018</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="../../categories/tutorials" rel="category">Tutorials</a></span>
+</div>
+</div>
+		</header><div class="content post__content clearfix">
+			<p>This section will cover setting up Voicemeeter Banana Pro with OBS using both Voicemeeter Banana Pro and Virtual Audio Cables. Please note that in order to continue with this tutorial, you will need additional software (linked below) which does require a donation to the creator of said software.</p>
+
+<p>Requirements:</p>
+
+<p><a href="http://www.vb-audio.com/Voicemeeter/banana.htm">Voicemeeter Banana Pro (Website)</a></p>
+
+<p><a href="http://www.vb-audio.com/Cable/index.htm">Virtual Audio Cables (required donation for complete setup, one free cable download)</a></p>
+
+<p>Once you gone ahead and donated, you should recieve an email with a link for the two additional cables. Back these files up along with the other downloaded files!</p>
+
+<p>Once you have download the files go ahead and create a folder on the desktop for your convenience, you should have the following four files:</p>
+
+<p>VBCABLE_A_Driver_Pack43.zip</p>
+
+<p>VBCABLE_B_Driver_Pack43.zip</p>
+
+<p>VBCABLE_Driver_Pack43.zip</p>
+
+<p>VoicemeeterProSetup.exe</p>
+
+<p>Go ahead and run the VoicemeeterProSetup.exe as an Administrator and complete the setup, then extract the zip files into their own folders (using something like 7zip) and run each of the three Setup_x64.exe files as an Administrator for each of the three cables.</p>
+
+<p>Once completed go ahead and restart your PC.</p>
+
+<p>At this point you&rsquo;ll have no audio at all for any application, so lets go ahead and fix that. The first thing we want to do is open the Windows Sound menu shown below. Set the VoiceMeeter Input and VoiceMeeter Output as the default Playback and Recording devices.</p>
+
+<p><img class="image" src="https://1.bp.blogspot.com/--ISZhZqRNvQ/WZfCzKT6ygI/AAAAAAAAATs/0F-jzo8-LzkFwryqMQE1C5PmZ78ow84hACLcBGAs/s1600/rundll32_2017-08-19_04-50-45.png"></p>
+
+<p><img class="image" src="https://2.bp.blogspot.com/-29Z7hjYFz_U/WZfCzNY5YcI/AAAAAAAAATo/GxwU_E48g4EVVi4FVcz5Y6WE0FhVM8pJwCLcBGAs/s1600/rundll32_2017-08-19_04-50-42.png"></p>
+
+<p>Now that we have the default audio set for the mixer, we can go ahead and open it up, either by the desktop shortcut or by launching Voicemeeter Banana from the Windows Start Menu.</p>
+
+<p><img class="image" src="https://4.bp.blogspot.com/-Ljd5nbiWfV8/WZhn7i5_t_I/AAAAAAAAAU0/1yY-LdMJhZU1n2o3Yfd2Pq2Ig5_fyO4wACLcBGAs/s1600/voicemeeterpro_2017-08-19_17-28-33.png"></p>
+
+<p>To begin with we need to understand the very basics. At the top right of the mixer you can find three outputs for audio, A1, A2 &amp; A3. Press the A1 button and a drop-down menu will appear with the possible audio outputs, as we&rsquo;re trying to get basic audio back, select your speakers/headphones that you usually use for audio output (if there are two identical names for your output, select the MME version).</p>
+
+<p>Go ahead and open up a YouTube video and comfirm that the audio is now working. What you should see is the Voicemeeter VAIO mixer (found in the centre of the panel) is now displaying the current audio levels, feel free to use the slider to adjust the audio, double-clicking the slider will bring it back to 0dB. This slider is going to be used for most of the audio coming through your PC, so consider it as the default audio slider.</p>
+
+<p>Next to the slider you&rsquo;ll find three other buttons, also called A1, A2 &amp; A3. These buttons correspond to the three output buttons; you&rsquo;ll notice that if you turn off the A1 button, you can no longer hear the audio playing, we&rsquo;ll use this later to allow us to pass through audio to the stream that we want our viewers to hear, and to block audio we may not want them to hear.</p>
+
+<p>Now that we have basic audio working again, it&rsquo;s time to setup our music player. To the left of the slider we just played around with are three other sliders (I&rsquo;m using the centre slider), we can use these for other programs and have individual control over their sound levels, and if the stream hears the audio or not. Go ahead and open your selected audio player and find the audio output menu (obviously all audio players are different). We want to send the audio down a virtual cable instead of to our speakers, so select any of the virtual cables (I&rsquo;m using CABLE-A) in the drop down menu (I&rsquo;m using Foobar2000 in this example).</p>
+
+<p><img class="image" src="https://4.bp.blogspot.com/-enPIOJVtPAU/WZhh7nZnp1I/AAAAAAAAAUI/pXpijnAFrw0uSvloAQTx-yruOWeKUneAACLcBGAs/s1600/foobar2000_2017-08-19_17-02-55.png"></p>
+
+<p>Now that our music player is routing its audio to the virtual cable, we need to assign one of the sliders to that cable, to do this choose a slider, and at the top of the slider where it says &ldquo;Select Input Device&rdquo; click and choose the cable we used in the audio player (as seen below).</p>
+
+<p><img class="image" src="https://2.bp.blogspot.com/-gjF9KPOHqdk/WZhoBE_gpiI/AAAAAAAAAU4/2vRurglakYkY5X9zN8UtoLS-E12oOesPgCLcBGAs/s1600/voicemeeterpro_2017-08-19_17-28-39.png"></p>
+
+<p>Now that our slider has the correct cable assigned to it, we should be able to hear any music played with our audio player. go ahead and test out the slider, as well as turning on and off the A1 button just like we did before so that you can hear the music.</p>
+
+<p>Now that our audio player has been setup, we can do the same for our microphone. Go ahead and choose another slider (I&rsquo;m using the right slider) and select your microphone just like we did before from the dropdown menu. Now that your microphone is selected go ahead and listen to yourself by enabling the A1 button (watch out for feedback if you&rsquo;ve got your speakers on!)</p>
+
+<p>Congratulations, you&rsquo;ve now got your microphone and your audio ready to go! All that&rsquo;s left to do now is to send this audio to OBS. To do this we need to setup another ouput. In the top right of the mixer go ahead and press the A2 button and select the last unused cable (if you&rsquo;ve been following along, this should be CABLE Input) and assign it to the A2 button.</p>
+
+<p>Finally all we have to do is open up OBS and in the audio menu assign our Desktop Audio Device to the &ldquo;CABLE Input&rdquo; (This is our A2 ouput in the mixer).</p>
+
+<p><img class="image" src="https://2.bp.blogspot.com/-Ams8YckTjIk/WZhodbd3lKI/AAAAAAAAAU8/b9I-eKpy4_oG1FfZ03hJ6v8QZgQeHLXJQCLcBGAs/s1600/obs64_2017-08-19_17-27-48.png"></p>
+
+<p>Everything is now complete! To send audio to the stream, simply enable to A2 button the slider, and to let yourself hear it, press A1 (below I&rsquo;ve added a small guide image to help).</p>
+
+<p><img class="image" src="https://2.bp.blogspot.com/-u-PddLPwzJU/WZhqSWtHVlI/AAAAAAAAAVI/CC4NcGYpYH43qN3BCGa5_jhgdXbqMnE2wCLcBGAs/s1600/voicemeeterpro_2017-08-19_17-36-53.png"></p>
+
+<p>As a final step, you can right click where it says &ldquo;HARDWARE INPUT 3&rdquo; at the top and write in a name for each of the two sliders (Music, Microphone) so you can more easily remember which is which.</p>
+
+<p>I hope this guide helped you setup the basic of audio routing with Voicemeeter! If you have any questions feel free to leave them in the comments below, or contact me on Discord.</p>
+
+		</div>
+		
+	</article>
+</main>
+
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="../../post/youtuber-shirrako-suspended-over-red-dead-redemption-video/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">YouTuber Shirrako Suspended Over Red Dead Redemption Video (updated)</p></a>
+	</div>
+</nav>
+
+
+			</section>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2018 TheChiefMeat.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="../../js/menu.js"></script></body>
+</html>

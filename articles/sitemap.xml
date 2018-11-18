@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/obs-voicemeeter-audio-setup/</loc>
+    <lastmod>2018-11-15T21:23:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/youtuber-shirrako-suspended-over-red-dead-redemption-video/</loc>
     <lastmod>2018-11-07T20:30:27+00:00</lastmod>
   </url>
@@ -65,7 +70,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-11-07T20:30:27+00:00</lastmod>
+    <lastmod>2018-11-15T21:23:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,12 +82,18 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-11-07T20:30:27+00:00</lastmod>
+    <lastmod>2018-11-15T21:23:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/tutorials/</loc>
+    <lastmod>2018-11-15T21:23:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   
