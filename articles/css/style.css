@@ -125,7 +125,8 @@ body {
 	font-size: .875rem;
 	line-height: 1.6;
 	word-wrap: break-word;
-	background: #2a2a2a;
+	/*background: #2a2a2a;*/
+	background: #e6eaec url(/img/pattern.png) repeat;
 	-webkit-font-smoothing: antialiased;
 }
 

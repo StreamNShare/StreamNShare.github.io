@@ -6,10 +6,21 @@
     <description>Recent content on Stream &#39;n Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 15 Nov 2018 21:23:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Nov 2018 02:59:35 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Valve Discontinues Steam Link</title>
+      <link>/post/valve-discontinues-steam-link/</link>
+      <pubDate>Tue, 20 Nov 2018 02:59:35 +0000</pubDate>
+      
+      <guid>/post/valve-discontinues-steam-link/</guid>
+      <description>Valve has appeared to have completely discontinued the Steam Link. On the official store page, Valve states that:
+ &amp;ldquo;The supply of physical Steam Link hardware devices is sold out. Moving forward, Valve intends to continue supporting the existing Steam Link hardware as well as distribution of the software versions of Steam Link, available for many leading smart phones, tablets and televisions.&amp;rdquo;
+ Below is a link to where you can find more information about the Steam Link application:</description>
+    </item>
     
     <item>
       <title>OBS Voicemeeter Audio Setup</title>
