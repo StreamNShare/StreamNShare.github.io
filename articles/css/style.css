@@ -17,6 +17,13 @@
 
 }
 
+.alert-opinion {
+
+    color: #606060;
+    background-color: #e7e7e7;
+    border-color: #ffeeba;
+
+}
 .alert {
 
     position: relative;
