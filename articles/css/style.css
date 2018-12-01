@@ -43,6 +43,44 @@ img{
   height:auto;
 }
 
+.wpex-entry strong {
+    color: unset;
+}
+.wpex-post-share a:hover {
+
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+.wpex-post-share a {
+
+    display: block;
+    padding: 0.429em 0.857em;
+    color: #fff !important;
+    background: #000;
+
+}
+.wpex-post-share li {
+
+    display: block;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+.wpex-post-share {
+
+    margin: 10px 0 10px;
+    font-size: 0.929em;
+
+}
+
+.wpex-post-share ul {
+
+    overflow: hidden;
+
+}
+
 /*iframe{max-width: 90%;}
 
 li {
