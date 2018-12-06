@@ -6,10 +6,20 @@
     <description>Recent content on Stream &#39;n Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 04 Dec 2018 00:27:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Dec 2018 01:38:07 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bethesda Data Breach Reveals Customer Information</title>
+      <link>/post/bethesda-data-breach-reveals-customer-information/</link>
+      <pubDate>Thu, 06 Dec 2018 01:38:07 +0000</pubDate>
+      
+      <guid>/post/bethesda-data-breach-reveals-customer-information/</guid>
+      <description>After a trialling week, Bethesda has once again found themselves in hot water. Their support page for Fallout 76 Power Armor Edition users was found to be publicly leaking sensitive user information, including receipts which could contain emails, home addresses and even the card used to purchase the game.
+So far, Bethesda has yet to respond on any public channels, only through a forum reply saying “Hi guys, we’ve resolved this issue.</description>
+    </item>
     
     <item>
       <title>Bethesda Planning Replacement Power Armor Edition Canvas Bags</title>
